@@ -8,6 +8,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+  <link rel="stylesheet" href="style.css">
+
   <title>Frontend Mentor | Notifications page</title>
 </head>
 
@@ -25,7 +27,7 @@
 
     <!-- Notifications -->
     <section>
-      <div class="card">
+      <div class="card unread">
         <img src="assets/images/avatar-mark-webber.webp" alt="avatar">
         <div class="description">
           <p class="notifyTitle">
@@ -33,89 +35,82 @@
           </p>
           <h4 class="time">1m ago</h4>
         </div>
+      </div>
 
-        <div class="card">
-          <img src="assets/images/avatar-angela-gray.webp" alt="avatar">
+      <div class="card unread">
+        <img src="assets/images/avatar-angela-gray.webp" alt="avatar">
+        <div class="description">
+          <p class="notifyTitle">
+            <strong> Angela Gray </strong> followed you.
+          </p>
+          <h4 class="time">5m ago</h4>
+        </div>
+      </div>
+
+      <div class="card unread">
+        <img src="assets/images/avatar-jacob-thompson.webp" alt="avatar">
+        <div class="description">
+          <p class="notifyTitle">
+            <strong>Jacob Thompson</strong> has joined your group <a href="#" class="link">Chess Club</a>
+          </p>
+          <h4 class="time">1 day ago</h4>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="message_card">
+          <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="avatar">
           <div class="description">
             <p class="notifyTitle">
-              <strong> Angela Gray </strong> followed you.
+              <strong>Rizky Hasanuddin</strong> sent you a private message.
             </p>
-            <h4 class="time">5m ago</h4>
+            <h4 class="time">5 days ago</h4>
           </div>
+        </div>
+      </div>
 
-          <div class="card">
-            <img src="assets/images/avatar-jacob-thompson.webp" alt="avatar">
-            <div class="description">
-              <p class="notifyTitle">
-                <strong>Jacob Thompson</strong> has joined your group <a href="#" class="link">Chess Club</a>
-              </p>
-              <h4 class="time">1 day ago</h4>
-            </div>
-
-            <div class="card">
-              <div class="message_card">
-                <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="avatar">
-                <div class="description">
-                  <p class="notifyTitle">
-                    <strong>Rizky Hasanuddin</strong> sent you a private message.
-                  </p>
-                  <h4 class="time">5 days ago</h4>
-                </div>
-              </div>
-            </div>
-
-            <!-- Message Box -->
-            <div class="messageBox">
-              <p class="meesage"></p>
-              Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
-              I'm already having lots of fun and improving my game.
-            </div>
+      <!-- Message Box -->
+      <div class="messageBox">
+        <p class="meesage"></p>
+        Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+        I'm already having lots of fun and improving my game.
+      </div>
 
 
-            <div class="card">
-              <img src="assets/images/avatar-jacob-thompson.webp" alt="avatar">
-              <div class="description">
-                <p class="notifyTitle">
-                  <strong>Jacob Thompson</strong> has joined your group <a href="#" class="link">Chess Club</a>
-                </p>
-                <h4 class="time">1 day ago</h4>
-              </div>
-            </div>
-
-            <div class="card">
-              <img src="assets/images/avatar-kimberly-smith.webp" alt="avatar">
-              <div class="description">
-                <p class="notifyTitle">
-                  <strong>Kimberly Smith</strong> commented on your picture.
-                </p>
-                <h4 class="time">1 week ago</h4>
-              </div>
-              <img src="assets/images/image-chess.webp" class="chess_img alt=" chess">
-            </div>
+      <div class="card">
+        <img src="assets/images/avatar-kimberly-smith.webp" alt="avatar">
+        <div class="description">
+          <p class="notifyTitle">
+            <strong>Kimberly Smith</strong> commented on your picture.
+          </p>
+          <h4 class="time">1 week ago</h4>
+        </div>
+        <img src="assets/images/image-chess.webp" class="chess_img alt=" chess">
+</div>
 
 
-            <div class="card">
-              <img src="assets/images/avatar-nathan-peterson.webp" alt="avatar">
-              <div class="description">
-                <p class="notifyTitle">
-                  <strong>Nathan Peterson</strong> reacted to your recent post
-                  <b>5 end-game strategies to increase your win rate.</b>
-                </p>
-                <h4 class="time">2 weeks ago</h4>
-              </div>
-            </div>
+  <div class="card">
+    <img src="assets/images/avatar-nathan-peterson.webp" alt="avatar">
+    <div class="description">
+      <p class="notifyTitle">
+        <strong>Nathan Peterson</strong> reacted to your recent post
+        <b>5 end-game strategies to increase your win rate.</b>
+      </p>
+      <h4 class="time">2 weeks ago</h4>
+    </div>
+  </div>
 
 
-            <div class="card">
-              <img src="assets/images/avatar-anna-kim.webp" alt="avatar">
-              <div class="description">
-                <p class="notifyTitle">
-                  <strong>Anna Kim</strong> left the group <a href="#" class="link">Chess Club</a>.
-                </p>
-                <h4 class="time">2 weeks ago</h4>
-              </div>
-            </div>
-    </section>
+  <div class="card">
+    <img src="assets/images/avatar-anna-kim.webp" alt="avatar">
+    <div class="description">
+      <p class="notifyTitle">
+        <strong>Anna Kim</strong> left the group <a href="#" class="link">Chess Club</a>.
+      </p>
+      <h4 class="time">2 weeks ago</h4>
+    </div>
+  </div>
+  </section>
   </div>
 
 
