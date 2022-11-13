@@ -144,4 +144,9 @@ strong:hover {
     .container{
       margin: 0;
     }
+
+    #statusCheck {
+        margin-left: 1rem;
+        font-size: 0.7rem;
+    }
   }
