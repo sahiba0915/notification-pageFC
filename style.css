@@ -60,7 +60,7 @@ body {
     border-radius: 0.5rem;
 }
 
-.statusCheck {
+#statusCheck {
     cursor: pointer;
 }
 
